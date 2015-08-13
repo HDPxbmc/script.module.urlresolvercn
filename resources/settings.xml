@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+<category label="优酷">
+<setting id="YoukuResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="YoukuResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="土豆">
+<setting id="TudouResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="TudouResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="搜狐视频">
+<setting id="SohuResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="SohuResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="通用分辨率设置">
+<setting id="ResolutionSetting_priority" type="number" label="Priority" default="100"/>
+<setting id="ResolutionSetting_enabled" type="bool" label="Enabled" default="true"/>
+<setting label="清晰度" id="ResolutionSetting_quality" type="enum" values="每次询问|320P(流畅)|480P(高清)|720P(超清)|1080P(蓝光)" default="0"/>
+</category>
+<category label="PPTV">
+<setting id="PPTVResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="PPTVResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="m1905">
+<setting id="M1905Resolver_priority" type="number" label="Priority" default="100"/>
+<setting id="M1905Resolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="乐视">
+<setting id="LetvResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="LetvResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="ku6">
+<setting id="Ku6Resolver_priority" type="number" label="Priority" default="100"/>
+<setting id="Ku6Resolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="迅雷看看">
+<setting id="KankanResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="KankanResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+<category label="爱奇艺">
+<setting id="IQiyiResolver__priority" type="number" label="Priority" default="100"/>
+<setting id="IQiyiResolver__enabled" type="bool" label="Enabled" default="true"/>
+<setting label="视频格式" id="IQiyiResolver__videoformat" type="enum" values="m3u8|mp4|分段flv" default="0" />
+<setting label="清晰度" id="IQiyiResolver__quality" type="enum" values="每次询问|超清|高清|流畅|极速" default="0"/>
+</category>
+<category label="风行">
+<setting id="funshionResolver_priority" type="number" label="Priority" default="100"/>
+<setting id="funshionResolver_enabled" type="bool" label="Enabled" default="true"/>
+</category>
+</settings>
